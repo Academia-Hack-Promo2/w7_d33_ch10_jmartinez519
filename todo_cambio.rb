@@ -18,7 +18,7 @@ require 'httparty'
 
 class Reto
   include HTTParty
-  base_uri 'http://45.55.172.121:3000/api/users'
+  base_uri 'http://hackapi.jgab.net/api/users/'
 
   def agregar(user)
     options = {body: user}
