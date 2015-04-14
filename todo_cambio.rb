@@ -42,14 +42,12 @@ end
 jamm = Reto.new
 
 
-# print jamm.agregar({
-#   "address": "Los Dos Caminos", 
-#   "username": "@codejamm", 
-#   "fullname": "Jonathan Martinez", 
-#   "email": "jamm@hack4geeks.co",
-#   "gender": "male",
-#   });
+print jamm.agregar({
+  "address": "Los Dos Caminos", 
+  "username": "@codejamm", 
+  "fullname": "Jonathan Martinez", 
+  "email": "jamm@hack4geeks.co",
+  "gender": "male",
+  });
 
-# print jamm.editar("@codejamm",{  
-#   "status": "active"
-#   });
+print jamm.editar("@codejamm", {"status": "active"});
